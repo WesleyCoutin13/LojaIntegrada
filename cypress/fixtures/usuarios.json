@@ -1,0 +1,61 @@
+[
+    
+    {
+        "email": "Robson.oliveira@gmail.com",
+        "senha": "teste123",
+        "confirmacaosenha": "teste123",
+        "cep": "06150-010",
+        "numerocasa": "173",
+        "nome": "Teste Robson",
+        "cpf": "008.623.056-59",
+        "celular": "11984323433",
+        "telefone": "1125984393",
+        "datanascimento": "03122003"
+    },
+
+    {
+        "email": "richard.silva@gmail.com",
+        "senha": "teste123",
+        "confirmacaosenha": "teste123",
+        "cep": "06150-010",
+        "numerocasa": "173",
+        "nome": "Teste Richard",
+        "cpf": "508.260.334-58",
+        "celular": "11984323433",
+        "telefone": "1125984393",
+        "datanascimento": "03122003"
+    },
+
+    {
+        "email": "marcos.felipe@gmail.com",
+        "senha": "teste123",
+        "confirmacaosenha": "teste123",
+        "cep": "06150-010",
+        "numerocasa": "173",
+        "nome": "Teste marcos",
+        "cpf": "064.253.789-56",
+        "celular": "11984323423",
+        "telefone": "1125984323",
+        "datanascimento": "03012003"
+    },
+
+    {
+        "email": "Renato-albane@gmail.com",
+        "senha": "teste123",
+        "confirmacaosenha": "teste123",
+        "cep": "06150-010",
+        "numerocasa": "173",
+        "nome": "Teste Renato",
+        "cpf": "688.229.588-37",
+        "celular": "11984323433",
+        "telefone": "1125984393",
+        "datanascimento": "03122003"
+    }
+]
+
+
+
+
+
+
+

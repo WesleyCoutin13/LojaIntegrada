@@ -1,0 +1,16 @@
+{
+  "name": "automacao",
+  "version": "1.0.0",
+  "description": "Testes automatizados da loja Integrada",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Wesley Coutinho",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^9.1.1",
+    "mochawesome": "^7.1.3"
+  }
+}
