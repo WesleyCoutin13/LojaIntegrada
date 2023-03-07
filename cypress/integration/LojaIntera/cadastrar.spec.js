@@ -1,6 +1,5 @@
 describe('Login loja intera', () =>{
     
-
     beforeEach(() => {
         cy.visit('https://qastoredesafio.lojaintegrada.com.br/')
     })
@@ -27,7 +26,7 @@ describe('Login loja intera', () =>{
     const usuario = require('../../fixtures/usuarios.json')
     usuario.forEach(usuario => {
 
-        it.only(`Validar criacao de um novo usuario ${usuario.nome} `, () => {
+        it(`Validar criacao de um novo usuario ${usuario.nome} `, () => {
             cy.contains('a', 'Minha Conta').click();
             cy.get('fieldset > div > #id_email').type(usuario.email);
             cy.contains('button', 'Cadastrar').click();
@@ -44,8 +43,5 @@ describe('Login loja intera', () =>{
             cy.get('#id_data_nascimento').type(usuario.datanascimento);
             cy.contains('button', 'Criar Conta').click();
         })
-
     });
-
-    
 })

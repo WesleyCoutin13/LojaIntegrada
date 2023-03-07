@@ -53,7 +53,4 @@ describe('Login loja intera', () =>{
         cy.get(':nth-child(2) > .controls > .errorlist > li').should('be.visible');
         cy.get(':nth-child(3) > .controls > .errorlist > li').should('be.visible');
     })
-
-
-
 })
